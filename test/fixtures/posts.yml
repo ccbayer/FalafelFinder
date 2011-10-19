@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  title: 
+  postcontent: 
+  type: 
+  locationname: 
+  address: 
+  rating: MyString
+
+two:
+  title: 
+  postcontent: 
+  type: 
+  locationname: 
+  address: 
+  rating: MyString
