@@ -5,3 +5,20 @@
  *= require_self
  *= require_tree . 
 */
+
+body{margin:0px auto;}
+header{width:1000px;margin:0px auto;}
+nav{border-bottom:1px solid #ddd;}
+nav ul{list-style:none;}
+nav ul li{float:left;}
+nav ul li a{background-color: #e3e3e3;border:1px solid #e3e3e3;-moz-border-radius: 5px;-o-border-radius:5px;-webkit-border-radius:5px;-border-radius:5px;padding:4px 12px;margin:10px;text-decoration: none;}
+nav ul li a:hover{border:1px solid #999;background-color:#999;color:#fff;}
+
+
+.container{margin:0px auto;width:1000px;margin-top:30px;}
+
+.main_content{width:740px;padding:20px;border-right:1px solid #333;background-color: #e3e3e3;-moz-border-radius-topleft: 5px;-o-border-radius-topleft:5px;-webkit-border-radius-topleft:5px;-border-radius-topleft:5px;-moz-border-radius-bottomleft: 5px;-o-border-radius-bottomleft:5px;-webkit-border-radius-bottomleft:5px;-border-radius-bottomleft:5px;min-height:110px;}
+.sidebar{background-color: #87afff;height:100%;width:210px;text-align: center;-moz-border-radius-topright: 5px;-o-border-radius-topright:5px;-webkit-border-radius-topright:5px;-border-radius-topright:5px;-moz-border-radius-bottomright: 5px;-o-border-radius-bottomright:5px;-webkit-border-radius-bottomright:5px;-border-radius-bottomright:5px;min-height:150px;}
+.clear{clear:both;}
+.left{float:left;}
+.right{float:right;}

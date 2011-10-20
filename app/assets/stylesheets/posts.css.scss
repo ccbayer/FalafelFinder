@@ -1,3 +1,13 @@
 // Place all the styles related to the Posts controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.post_list_view{padding:20px;background-color:#fff;-webkit-box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, .2);
+-moz-box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, .2);
+box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, .2);
+margin-bottom:15px;
+border-bottom:1px solid #999;
+}
+
+.edits{background-color:#f1ffe8;padding:3px;font-size:11px;text-align:right;}

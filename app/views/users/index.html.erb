@@ -2,8 +2,7 @@
 
 <table>
   <tr>
-    <th>Fname</th>
-    <th>Lname</th>
+    <th>Name</th>
     <th>Email</th>
     <th>Avatarurl</th>
     <th></th>
@@ -13,8 +12,7 @@
 
 <% @users.each do |user| %>
   <tr>
-    <td><%= user.fname %></td>
-    <td><%= user.lname %></td>
+    <td><%= user.fname %> <%= user.lname %></td>
     <td><%= user.email %></td>
     <td><%= user.avatarurl %></td>
     <td><%= link_to 'Show', user %></td>
@@ -24,6 +22,6 @@
 <% end %>
 </table>
 
-<br />
-
-<%= link_to 'New User', new_user_path %>
+<% content_for :right_col do %>
+	<%= link_to 'New User', new_user_path %>
+<% end %>
