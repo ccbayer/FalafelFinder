@@ -1,3 +1,3 @@
-class Tags < ActiveRecord::Base
+class Tag < ActiveRecord::Base
   belongs_to :post
 end
